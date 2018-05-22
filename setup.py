@@ -8,7 +8,7 @@ from distutils.extension import Extension
 
 # indicate which extensions we want to compile
 extensions = [
-    Extension('conv', sources = ['./conv.c'])
+    Extension('conv', ['conv.c'])
     #Extension('conv')
     ]
 
